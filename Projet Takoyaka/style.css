@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@font-face {
+  font-family: 'HoshikoSatsuki';
+  src: url('fonts/HoshikoSatsuki.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'StoryScript';
+  src: url('fonts/StoryScript-Regular.ttf') format('truetype');
+}
 
 body {
   text-align: center;
@@ -9,17 +16,16 @@ body {
 
 
 h1 {
-  text-transform: uppercase;
+    font-family: 'HoshikoSatsuki', Georgia, 'Times New Roman', Times, serif, sans-serif;
   letter-spacing: 3px;
   text-align: center;
   font-size: 1.7rem;
   text-shadow: 1px 1px 3px;
   color: rgb(133, 0, 0, 0.735);
-  font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
 }
 
 h2 {
-  font-family: 'Story Script', sans-serif;
+  font-family: 'StoryScript', serif;
   text-shadow: 0.5px 0.5px 2px;
   letter-spacing: 3px;
   font-size: 1.7rem;
@@ -55,10 +61,9 @@ tfoot {
   background-color: rgb(251, 252, 252);
 }
 
-th,
-td {
-  border: 1px solid rgb(0, 0, 0);
-  padding: 8px 10px;
+th, td {
+  border: 1px solid rgb(70, 16, 16);
+  padding: 10px; 
 }
 
 td:last-of-type {
@@ -97,7 +102,7 @@ button:hover {
 }
 
 a {
-    color: rgba(241, 114, 114, 0.84);
+    color: rgba(116, 23, 23, 0.897);
     text-decoration: none;           
     font-weight: bold;
     border-bottom: 2px solid transparent; 
@@ -105,6 +110,6 @@ a {
 }
 
 a:hover {
-    color: rgb(88, 19, 19);
+    color: rgb(58, 13, 13);
     border-bottom: 2px solid rgba(118, 4, 4, 0.936); 
 }
