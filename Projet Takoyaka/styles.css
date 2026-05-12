@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'HoshikoSatsuki';
+  src: url('fonts/HoshikoSatsuki.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'StoryScript';
+  src: url('fonts/StoryScript-Regular.ttf') format('truetype');
+}
+
+body {
+  text-align: center;
+  color: rgb(70, 16, 16);
+  background: rgb(193, 248, 207);
+}
+
+
+h1 {
+    font-family: 'HoshikoSatsuki', Georgia, 'Times New Roman', Times, serif, sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 3px;
+  color: rgba(153, 5, 5, 0.815);
+}
+
+h2 {
+  font-family: 'StoryScript', serif;
+  text-shadow: 0.5px 0.5px 2px;
+  letter-spacing: 3px;
+  font-size: 1.7rem;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+li::marker {
+  color: rgb(133, 0, 0);
+  font-weight: bold;
+}
+
+button {
+    background-color: rgba(155, 7, 7, 0.901);
+    color: rgb(141, 197, 155);       
+    border: none;
+    padding: 12px 24px;
+    font-family: 'Story Script', sans-serif; 
+    font-size: 1.2rem;
+    border-radius: 50px;            
+    cursor: pointer;
+    transition: all 0.3s ease;       
+    box-shadow: 2px 2px 5px rgba(91, 32, 32, 0.374);
+}
+
+button:hover {
+    background-color: rgb(184, 1, 1); 
+    transform: scale(1.1);            
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+a {
+    color: rgba(99, 20, 20, 0.897);
+    text-decoration: none;           
+    font-weight: bold;
+    border-bottom: 2px solid transparent; 
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(44, 11, 11);
+    border-bottom: 2px solid rgba(118, 4, 4, 0.936); 
+}
