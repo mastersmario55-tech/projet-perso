@@ -1,0 +1,10 @@
+print(10<5)
+print(10>5)
+print(10==5)
+print(10==10)
+print(10>=10)
+print(10>=5)
+print(10<=5)
+age = 18 
+if age >= 18:
+    print('You are an adult')
