@@ -8,6 +8,8 @@
   src: url('fonts/StoryScript-Regular.ttf') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
 body {
   text-align: center;
   color: rgb(70, 16, 16);
@@ -31,13 +33,46 @@ h2 {
   font-size: 1.7rem;
 }
 
-ul {
+table {
   display: inline-block;
   text-align: left;
 }
 
 li::marker {
   color: rgb(133, 0, 0);
+  font-weight: bold;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(251, 252, 252);
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
   font-weight: bold;
 }
 
